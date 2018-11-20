@@ -1,0 +1,113 @@
+body, html {
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	font-size: 16px;
+}
+
+header {
+	display: block;
+	width: 100%;
+}
+
+.backgroundBanner {
+	background-image: url("images/bannerImg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+
+#headerList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+.headerListItem{
+    float: left;
+}
+
+.headerListLink {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+.headerListLink:hover:not(.active) {
+    background-color: #ddd;
+}
+
+h1,h2 {
+	margin: 0.5em;
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+	color: #27318b;
+}
+
+.mainLink {
+	color: #27318b;
+	text-decoration: none;
+}
+.mainLink:hover {
+	color: #8b3727;
+	text-decoration: underline;
+}
+
+.usualParagraph {
+	margin: 1em;
+	line-height: 1.4em;
+	letter-spacing: 1px;
+}
+
+.mainFigure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 35%;
+	border: 1px solid black;
+}
+
+.mainFigcaption {
+	font-size: 90%;
+}
+
+.mainImg {
+	width: 100%;
+}
+
+footer {
+	background-color: #f3f3f3;
+	padding: 0.1em;
+	clear: both;
+}
+
+.mainFooterParagraph {
+	color: #666;
+	text-align: center;
+	margin: 0.5em;
+}
+
+.footerImage {
+	width: 20px;
+}
+
+@media screen and (max-width: 900px) {
+	.mainFigure {
+		width: 90%;
+		margin: 1em;
+	}
+}
